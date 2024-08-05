@@ -76,6 +76,7 @@ nav a { background-color: #E0E0E0;
     text-decoration: none;
     transition-duration: 0.5s;
     
+    
 }
 nav>a:hover {
   background-color:var(--cor4);
@@ -87,9 +88,9 @@ main { background-color: white;
  .slider {
   display: block;
   height: 300px;
-  width: 300px;
+  width: 400px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 0px;
   position: relative;
 }
 
