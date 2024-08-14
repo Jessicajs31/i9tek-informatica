@@ -86,10 +86,12 @@ nav>a:hover {
 }
   
 main { background-color: white;
- padding: 500px;}
+ padding: 500px;
+ position: relative;}
  
-iframe {
-  width: 1350px;
-  height: 400px;
+iframe { position: absolute;
+  width: 6000;
+  padding: 3374;
+ background-size: cover;
   }
  
