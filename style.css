@@ -29,12 +29,7 @@
 }
 body { background-color:white;
   height: 98vh;
-  background-image: url('imagen/logotipo.jpg');;
-  background-size: 100px 100px;
-  background-repeat: no-repeat;
-  background-position: left 20px;
-  
- }
+   }
 
 h1 { font-family: "Poppins", sans-serif;
   color:var(--cor4);
@@ -45,23 +40,27 @@ h1 { font-family: "Poppins", sans-serif;
   
   }
 
-header {min-height: 30px;
-   
+header { color: blue;
+  padding-right: 50px;
+
  padding-left: 50px;
  text-align:center;
  background-color:var(--cor4);
+ background-image: url('imagen/logotipo.jpg');;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  
  
 }
-;
- 
- header>p{ 
-    font-size: 1.2em;
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
- }
+ header h1 { color: #000000;}
+  header p { text-indent: 30px;
+   font-size: 1em;
+   line-height: 2em;}
+
  nav { background-color: #E0E0E0;
   padding:  10px;
+  border-top: 20px
   margin-top:50px;
   box-shadow: 0px 7px 7px rgba(255, 255, 0, 0.171);
   text-indent: 20px;
@@ -85,13 +84,12 @@ nav>a:hover {
   width: 20px;
 }
   
-main { background-color: white;
- padding: 500px;
- position: relative;}
- 
-iframe { position: absolute;
-  width: 6000;
-  padding: 3374;
- background-size: cover;
-  }
+ main {
+      background-color: #e0e0e0a6; min-width: 300px;
+      max-width: 1000px;
+       margin: auto;
+       padding: 20px; 
+       margin-bottom: 30px;}
+     
+  main iframe { width: 100%;}
  
