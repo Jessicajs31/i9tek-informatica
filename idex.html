@@ -1,36 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="shortcut icon" href="favicon/logotipo.jpg" type="image/x-icon">
-     <link rel="stylesheet" href="style.css">
-    
-    <title>I9 Tek-Loja de Informatica e concertos</title>
-    
+    <title>I9 Tek Informática</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body> 
-    <header> 
-        <h1> I9 Tek Informatica</h1>
-        <p>Enviamos para todo o Brasil</p> </header>
-         
-        <nav> 
-            <a href="pag01.html">Departamentos</a>
-            <a href="">linha imperio digital</a>
-            <a href="">Seminovos</a>
-            <a href="">Serviços</a>
-            
+<body>
+    <header>
+        <h1>Compre Seu Computador Ideal</h1>
+        <p>Escolha entre os melhores computadores para atender suas necessidades!</p>
+    </header>
+    <header>
+        <div class="logo">I9 TEK INFORMATICA</div>
+        <nav>
+            <div class="menu-hamburger" id="menu-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-list" id="menu-list">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
         </nav>
-     
-        <iframe src="https://docs.google.com/presentation/d/1Yyj_hVX62BtnLF_gI3gh_8Gt_0EFB8k_DT8ysX1EKUE/embed?start=false&loop=false&delayms=5000" frameborder="0" width="" height="" ></iframe>
-
-        
-     
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur quo et animi sit, fuga delectus ad iste fugit numquam impedit quis illo. Minima dolorem iusto quod, optio est facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptate voluptatum, in voluptas fuga est, dignissimos totam enim nihil sint minima unde quisquam? Incidunt natus quibusdam esse minus, recusandae numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia assumenda, harum vel quaerat ex repellendus quisquam ipsum natus! Aperiam, provident delectus? Ratione aliquam quasi alias enim magnam soluta architecto veritatis.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem ex vero dolore itaque quos expedita illum. Hic laboriosam eaque necessitatibus et voluptatibus dolor. Iure, vel odio repudiandae officiis fuga facere.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A et vel neque reprehenderit molestias. Incidunt adipisci, nihil, possimus doloribus earum molestias, suscipit reprehenderit labore cupiditate asperiores rem eos praesentium aliquid.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque esse adipisci consequuntur incidunt, blanditiis possimus qui assumenda accusantium fugiat. Nostrum vitae laudantium aut nemo atque magni, aperiam ex soluta.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt amet eveniet sunt maiores omnis, quis libero, ex est ducimus molestiae, voluptate sit soluta sed iure aspernatur at dolores error qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda praesentium id minus sint, fugiat aliquid accusantium, eum autem reiciendis, reprehenderit beatae quas voluptas sunt deleniti cum deserunt incidunt nam quidem.</p>
+    </header>
    
+
+    <script>
+        const menuHamburger = document.getElementById('menu-hamburger');
+        const menuList = document.getElementById('menu-list');
+
+        menuHamburger.addEventListener('click', () => {
+            menuList.classList.toggle('active');
+        });
+    </script>
+
+    <section class="products">
+        <div class="product">
+            <img src="computador1.jpg" alt="Computador Gamer">
+            <h2>Computador Gamer</h2>
+            <p>Poderoso para jogos e tarefas exigentes. Processador Intel i7, 16GB RAM, Placa de vídeo GTX 3060.</p>
+            <span class="price">R$ 5.000,00</span>
+            <button>Comprar Agora</button>
+        </div>
+        
+        <div class="product">
+            <img src="computador2.jpg" alt="Notebook Empresarial">
+            <h2>Notebook Empresarial</h2>
+            <p>Mobilidade e desempenho para o trabalho. Processador Intel i5, 8GB RAM, SSD 256GB.</p>
+            <span class="price">R$ 3.500,00</span>
+            <button>Comprar Agora</button>
+        </div>
+
+        <div class="product">
+            <img src="computador3.jpg" alt="All-in-One Compacto">
+            <h2>All-in-One Compacto</h2>
+            <p>Design compacto com potência. Tela de 23", Processador AMD Ryzen 5, 8GB RAM.</p>
+            <span class="price">R$ 4.200,00</span>
+            <button>Comprar Agora</button>
+        </div>
+
+        <div class="product">
+            <img src="computador4.jpg" alt="Ultrabook Portátil">
+            <h2>Ultrabook Portátil</h2>
+            <p>Leve e fino, ideal para viagens. Processador Intel i7, 16GB RAM, SSD 512GB.</p>
+            <span class="price">R$ 6.000,00</span>
+            <button>Comprar Agora</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Loja de Computadores. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
