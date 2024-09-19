@@ -5,12 +5,15 @@
     font-family: Arial, sans-serif;
 }
 
-body { background-color:#000;
+body { background-color: black;
     color:#FFD700;
     text-align: center;
     padding: 20px;
     
 }
+ 
+
+
 
 header {display: flex;
     justify-content: space-between;
@@ -34,7 +37,7 @@ nav { box-shadow: 0px 7px 7px #0000008a;
 } 
 
 
- #menu-list:hover { background-color:black;
+ #menu-list:hover { background-color:#ffd9008c;
  text-decoration: underline;}
 
 .menu-list { background-color: white;
@@ -98,7 +101,13 @@ nav { box-shadow: 0px 7px 7px #0000008a;
     }
 }
 
-
+.conteiner { width: 1000px;
+   height: 400px;
+ display: inline-block;
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;}
 
 header p {
     font-size: 1.2em;
