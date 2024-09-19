@@ -17,14 +17,16 @@ header {display: flex;
     align-items: center;
     padding: 20px;
     background-color:#007BFF;
-    color: #ffffff;
-}
+     color: #ffffff;
+     }
+      
 
 .logo {
     font-size: 1.5em;
     font-weight: bold;
     color: #FFD700;
 }
+
 
 nav {
     position: relative;
