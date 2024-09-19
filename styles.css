@@ -28,19 +28,26 @@ header {display: flex;
 }
 
 
-nav {
+nav { box-shadow: 0px 7px 7px #0000008a;
     position: relative;
-}
- #menu-list:hover { background-color: #00ff4023;
+} 
+
+
+ #menu-list:hover { background-color:#FFD700;
  text-decoration: underline;}
 
-.menu-list {
+.menu-list { background-color: white;
     list-style: none;
-    display: flex;
+    display: flex; 
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5;
 }
 
 .menu-list li {
     margin-left: 20px;
+    padding:10px ;
 }
 
 .menu-list li a {
