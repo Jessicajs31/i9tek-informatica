@@ -102,9 +102,9 @@ nav { box-shadow: 0px 7px 7px #0000008a;
     }
 }
 
- .conteiner { width: 650px;
+ .conteiner { 
    height: 400px;
- display: inline-block;
+ display:;
  background-size: contain;
  background-repeat: no-repeat;
  background-position: center;
