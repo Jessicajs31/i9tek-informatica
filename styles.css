@@ -11,7 +11,7 @@ body { background-color: black;
     padding: 20px;
     
 }
- 
+
 
 
 
@@ -81,11 +81,12 @@ nav { box-shadow: 0px 7px 7px #0000008a;
         position: absolute;
         top: 60px;
         right: 0;
-        background: color  white; 
+        
         flex-direction:  column ;
         align-items: center;
         width: 100%;
         display: none;
+        
     }
 
     .menu-list.active {
@@ -93,7 +94,7 @@ nav { box-shadow: 0px 7px 7px #0000008a;
     }
 
     .menu-list li {
-        margin: 20px 0;
+        margin: 10px 0;
     }
 
     .menu-hamburger {
@@ -101,7 +102,7 @@ nav { box-shadow: 0px 7px 7px #0000008a;
     }
 }
 
-.conteiner { width: 1000px;
+ .conteiner { width: 650px;
    height: 400px;
  display: inline-block;
  background-size: contain;
